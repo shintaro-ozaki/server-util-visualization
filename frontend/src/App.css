@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.cyber-card {
+  padding: 30px;
+  background-color: #222222;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.recharts-wrapper {
+  overflow: hidden;
+}
+
+.recharts-surface {
+  font-size: 14px;
+}
+
+.recharts-cartesian-grid-horizontal line {
+  stroke: rgba(255, 255, 255, 0.1);
+}
+
+.recharts-cartesian-grid-vertical line {
+  stroke: rgba(255, 255, 255, 0.1);
+}
+
+.recharts-legend-item-text {
+  fill: #ffffff;
+  font-size: 20px;
+}
+
+.recharts-tooltip {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #ffffff;
+}
+
+.recharts-tooltip-item {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.recharts-y-axis-label tspan {
+  font-size: 14px;
+  fill: white;
+}
